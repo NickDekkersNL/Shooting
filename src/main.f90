@@ -1,11 +1,16 @@
 program main
+   use whatever
    implicit none
-   integer :: a = 10
-   real :: b= 1.2344
 
-   print *, 'Hello worl from fortran', a, b
+   real c
+
+   c = calc(3.0)
+   print *, c
    
-!   use module
+
+   
+
+
 
 
 end program
